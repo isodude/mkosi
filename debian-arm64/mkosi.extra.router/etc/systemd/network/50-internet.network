@@ -1,0 +1,10 @@
+[Match]
+Name=internet
+Type=vlan
+
+[Network]
+DHCP=yes
+IPv6AcceptRA=yes
+
+[DHCPv6]
+PrefixDelegationHint=::/56

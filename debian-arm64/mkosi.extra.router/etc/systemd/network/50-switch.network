@@ -1,0 +1,12 @@
+[Match]
+Name=switch
+Type=ether
+
+[Network]
+VLAN=internet
+VLAN=lan
+LinkLocalAddressing=no
+LLDP=no
+EmitLLDP=no
+IPv6AcceptRA=no
+IPv6SendRA=no
