@@ -1,0 +1,5 @@
+[Mount]
+What=/dev/1/extensions
+Where=/var/lib/extensions
+[Install]
+WantedBy=multi-user.target
